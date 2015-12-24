@@ -1,0 +1,50 @@
+#container{
+    width: 90%;
+    margin: auto;
+}
+
+.row{
+    width: 100%;
+    margin: 0.5em ;
+    clear: both;
+    
+}
+
+.one-of-five{
+    width: 19%;
+    
+}
+.tree-of-five{
+    width: 60%; 
+    margin: auto;
+}
+
+.top{
+    height: 1.5em;
+    background-color: #000000;
+}
+.bottom{
+    height: 1.5em;
+    background-color: #00f;
+}
+.middile{
+    float: left;
+    height: 15em;
+    background-color: #008000;
+    margin-bottom: 0.5em;
+}
+
+.left-column{
+    float: left;
+    height: 15em;
+    background-color: #800080;
+    margin-bottom: 0.5em;
+    margin-right: 1%;
+}
+.right-column{
+    float: right;
+    height: 15em;
+    background-color: #ff0000;
+    margin-bottom: 0.5em;
+    margin-left: 1%;
+}

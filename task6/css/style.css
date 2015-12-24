@@ -1,0 +1,100 @@
+*{
+    font-family: sans-serif;
+}
+#container{
+    width: 70%;
+    margin: auto;
+}
+
+.row{
+    width: 100%;
+    clear: both;
+    
+}
+.top p{
+    width: 100%;
+    clear: both;
+    padding-left: 3em;
+}
+.top h1{
+    margin-left: 1em;
+}
+
+.one-of-five{
+    width: 15%;
+    
+}
+.one-of-five h2{
+    color: #fff;
+    padding-left: 1em
+}
+
+
+.one-of-five li{
+    color: #fff;
+    text-transform: uppercase;
+    margin: 2.5em;
+}
+.tree-of-five{
+    width: 70%; 
+    margin: auto;
+}
+
+.top{
+    height: 1.5em;
+    background-color: #956601;
+    height: 9em;
+    color: #fff;
+    padding-top: 0.3em;
+}
+
+.middile{
+    float: left;
+    background-color: #FFFFCD;
+    height: 80vh;
+}
+
+.left-column{
+    float: left;
+    background-color: #58201F;
+    height: 80vh;
+
+}
+.right-column{
+    float: right;
+    background-color: #87874B;
+    height: 80vh;
+
+}
+.clear{
+    clear: both;
+}
+
+#failedRow{
+    width: 80%;
+    height: 5em;
+    background-color: #656565;
+    
+}
+
+#failedRow p{
+    text-align: center;
+    padding-top: 1.4em;
+    margin-top: 0;
+    
+    
+}
+
+#content p {
+    padding-left: 3em;
+    padding-right: 1em;
+    margin-bottom: 2em;
+}
+
+.navbar {
+    background-color: #64332F;
+    margin-right: 2em;
+}
+.one-of-five h2{
+    margin-top: 0;
+}

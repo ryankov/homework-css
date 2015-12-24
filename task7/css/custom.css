@@ -1,0 +1,406 @@
+/* ==========================================================================
+   Import fonts
+   ========================================================================== */
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500italic,500,700,700italic,900,900italic&subset=latin,cyrillic);
+/* ==========================================================================
+   Base setings header custom styles
+   ========================================================================== */
+/* ==========================================================================
+   Hero header custom styles
+   ========================================================================== */
+
+.hero-unit {
+    background-image: url(../img/page-1_slide03.jpg);
+    background-size: 100%;
+    height: 82vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+}
+.hero-header {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    font-size: 3vw;
+    font-weight: 400;
+}
+.hero-header:nth-child(1) {
+    padding-top: 20vw;
+}
+.hero-header:nth-child(2) {
+    display: block;
+    min-width: 350px;
+    width: 40%;
+    margin: auto;
+    font-size: 2vw;
+    font-weight: 100;
+    border-left-width: 0px;
+}
+.buton-holder li {
+    display: inline;
+}
+.buton-holder a {
+    border: 2px solid #ffffff;
+    border-radius: 5em;
+    padding: 1.5vw 3vw;
+    text-align: center;
+    margin-bottom: 1em;
+}
+.buton-holder {
+    text-align: center;
+}
+.red-strip {
+    margin-bottom: 0;
+    background-color: #F73A4C;
+}
+/* ==========================================================================
+   Responsive for small devices
+   ========================================================================== */
+
+@media screen and (max-width: 560px) {
+    .buton-holder li {
+        display: block;
+    }
+    .buton-holder li a {
+        padding: 0.9vw 0.9vw;
+        margin-top: 1vw;
+    }
+    .red-strip {
+        display: none;
+    }
+    .hero-header {
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+        color: #ffffff;
+        font-size: 7vw;
+        font-weight: 400;
+    }
+    .hero-header:nth-child(2) {
+        font-size: 4vw;
+        font-weight: 100;
+        border-left-width: 0px;
+        width: 100vw;
+        padding: 0;
+    }
+    .hero-header:nth-child(1) {
+        padding-top: 10vw;
+    }
+    .main-navigation li {
+        display: block;
+        width: 70vw;
+        margin: auto;
+        padding: 5vw 0;
+        text-transform: uppercase;
+        border-radius: 0.2em;
+        text-align: center;
+    }
+    .main-navigation li a {
+        display: inline;
+        padding: 0.4em;
+        border-radius: 4vw;
+        margin: 1vw -1vw;
+        font-size: 17px;
+    }
+}
+}
+#fixedMenuStrip {
+    margin-bottom: 0;
+}
+/*==================  GOOGLE MAP  ======================*/
+
+.map_model {
+    height: 682px;
+}
+.map_model img {
+    max-width: none !important;
+}
+@media (max-width: 767px) {
+    .map_model {
+        height: 250px;
+    }
+}
+@media (max-width: 479px) {
+    .map_model {
+        height: 200px;
+    }
+}
+.map_locations {
+    display: none;
+}
+#map {
+    width: 100%;
+    height: 500px;
+}
+.redMenuStrip {
+    display: block;
+    width: 100vw;
+}
+.redMenuStrip li a {
+    display: inline;
+    text-align: center;
+    margin: 0 6vh
+}
+.main-navigation ul {
+    text-align: center;
+    margin-bottom: 0;
+    background-color: #F73A4C;
+    padding-bottom: 1em;
+}
+.main-navigation li {
+    display: inline-block;
+    border: 1px solid #F73A4C;
+    padding: 1em;
+    text-transform: uppercase;
+    border-radius: 2em;
+    margin: 1em 1em 0 1em;
+}
+.main-navigation li a {
+    font-family: text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+}
+.landing-header-media img {
+    padding-left: 0;
+    /* New */
+    
+    padding-right: 0;
+    /* New */
+    
+    position: relative;
+}
+#landing-header .landing-header-content h1 {
+    text-align: center
+}
+.landing-header-content {
+    position: absolute;
+    bottom: 30hv;
+    left: 30vw
+}
+#landing-header .landing-header-content p {
+    color: white;
+}
+#landing-header .landing-img {
+    width: 100%;
+    position: relative;
+}
+#landing-header img {
+    width: 100vw;
+    height: auto;
+}
+#header-container {
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 100vw;
+}
+.hero-text {
+    position: absolute;
+    bottom: 20em;
+    width: 50vw;
+    margin: auto;
+}
+.hero-text h1 {
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    font-weight: 300;
+}
+.hero-text p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.7em;
+    font-weight: 200;
+}
+.genre {
+    background-color: #000000;
+}
+.genre h1 {
+    font-family: font-size: 3em;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 2em;
+}
+.genre .container-fluid p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3em;
+    color: #FFFFFF;
+    font-weight: 200;
+    text-align: center;
+}
+.covers {
+    background-color: #000000;
+}
+.covers h5 a {
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300
+}
+.testemonials {
+    background-color: #F73A4C;
+    display: block;
+    height: 44em;
+}
+.mail-as {
+    background-color: #000000;
+}
+
+.mail-as h1{
+    display: block;
+    text-align: center;
+    margin: 2em auto;
+    color: #ffffff;
+}
+footer {
+    background-color: #000000;
+}
+footer {
+    background-color: #1F2324;
+}
+.genres li {
+    list-style: circle;
+    font-size: 1.6em;
+    color: #ffffff;
+}
+.search-buton {
+    padding: 0.5em 1em;
+    margin-top: 4em;
+    border-radius: 3em;
+    background-color: black;
+    border 2px solid white;
+    margin: auto;
+    display: block;
+    width: 10em;
+    font-size: 1.4em;
+    margin-bottom: 2em;
+}
+.product {
+    position: relative;
+}
+.product {
+    position: relative;
+}
+.product__body {
+    position: absolute;
+    bottom: 0.1em;
+    width: 100%;
+    margin: auto;
+}
+.product__body a {
+    margin: auto;
+    padding: 0.2em 0.3em;
+    text-decoration: none;
+}
+.product__body a:first-child {
+    margin-left: 13%
+}
+.product__body a {
+    color: #ffffff;
+}
+.pay-load-item {
+    display: block;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    padding-top: 5%;
+    color: #ffffff;
+}
+.pay-load-item img {
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+}
+.form-title {
+    text-align: center;
+    display: block;
+    color: #ffffff;
+    font-weight: 300;
+}
+.inverted {
+    padding: 0.5em 1em;
+    margin-top: 4em;
+    border-radius: 3em;
+    border 4px solid #ffffff;
+    margin: auto;
+    display: block;
+    width: 10em;
+    font-size: 1.4em;
+    margin-bottom: 2em;
+    text-align: center;
+    color: white;
+    background-image: linear-gradient(to bottom, #000 0, #000 100%);
+    border-color:
+}
+.btn-dark {
+    color: #FFFFFF;
+    padding: 0.5em;
+    font-size: 1.5em;
+    background-color: #000000;
+    border-color: #FFFFFF;
+    display: block;
+    margin: 2em auto;
+    border-radius: 1em;
+}
+.btn-dark:hover,
+.btn-dark:focus,
+.btn-dark:active,
+.btn-dark.active,
+.open .dropdown-toggle.btn-dark {
+    color: #FFFFFF;
+    background-color: #080808;
+    border-color: #FFFFFF;
+}
+.btn-dark:active,
+.btn-dark.active,
+.open .dropdown-toggle.btn-dark {
+    background-image: none;
+}
+.btn-dark.disabled,
+.btn-dark[disabled],
+fieldset[disabled] .btn-dark,
+.btn-dark.disabled:hover,
+.btn-dark[disabled]:hover,
+fieldset[disabled] .btn-dark:hover,
+.btn-dark.disabled:focus,
+.btn-dark[disabled]:focus,
+fieldset[disabled] .btn-dark:focus,
+.btn-dark.disabled:active,
+.btn-dark[disabled]:active,
+fieldset[disabled] .btn-dark:active,
+.btn-dark.disabled.active,
+.btn-dark[disabled].active,
+fieldset[disabled] .btn-dark.active {
+    background-color: #000000;
+    border-color: #FFFFFF;
+}
+.btn-dark .badge {
+    color: #000000;
+    background-color: #FFFFFF;
+}
+
+.mail-as input{
+    font-size: 2em;
+    background-color:#000000;
+    color: #FFF;
+    border: none;
+    border-bottom: 1px solid #d1cdcd;
+    display: block;
+    margin-bottom: 2em;
+    width: 70%;
+    font-weight: 100;
+    font-family: 'Roboto', sans-serif;
+
+    
+}
+.mail-as input[name="mesage"]{
+    width: 100%;
+}
+.mail-as input[name="email"]{
+    width: 100%;
+}
+
+

@@ -1,0 +1,49 @@
+
+header{
+    display: block;
+    height: 5em;
+    background-color:#336666;
+    margin-bottom: 0.5em;
+}
+
+.row{
+    width: 80%;
+    margin: auto;
+    box-sizing: border-box;
+    background-color: green;
+    margin-bottom: 0.5em;
+    
+}
+
+.row-containter{
+    width: 80%;
+    margin: auto;
+    box-sizing: border-box;
+    background-color: green;
+    margin-bottom: 0.5em;
+    
+}
+
+.section{
+    height: 3em;
+    background-color: #008000;
+    
+}
+
+.one-of-two {
+    width: 49.5%;
+    height: 1.5em
+    
+}
+
+.right {
+    float: right;
+    background-color: #1b5cd6;
+    margin-left: 0.25%;
+}
+
+.left{
+    float: left;
+    background-color: #800080;
+    margin-right: 0.25%;
+}

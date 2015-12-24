@@ -1,0 +1,44 @@
+#container{
+    width: 90%;
+    margin: auto;
+}
+
+.row{
+    width: 100%;
+    margin: 0.5em ;
+    clear: both;
+    
+}
+
+.one-of-tree{
+    width: 32.5%;
+    
+}
+.two-of-tree{
+    width: 65.5%;    
+}
+
+.top{
+    height: 1.5em;
+    background-color: #956601;
+}
+.bottom{
+    height: 1.5em;
+    background-color: #00f;
+}
+
+
+.left-column{
+    float: left;
+    padding-right:0.5%;
+    height: 15em;
+    background-color: #800080;
+    margin-bottom: 1em;
+}
+.right-column{
+    float: right;
+    height: 15em;
+    padding-left: 0.5%;
+    background-color: #008000;
+    margin-bottom: 1em;
+}
